@@ -1,0 +1,34 @@
+$max-width: 1024px;
+
+// Colors
+
+$brand-color: #755cef;
+$brand-color-dark: #4f3cbb;
+$brand-color-light: #9c7aef;
+$brand-color-smooth: #f6f4f9;
+
+$danger-color: #ff5573;
+$danger-color-dark: #ff3f5e;
+$danger-color-light: #ffa3b2;
+
+$success-color: #02c19e;
+$success-color-dark: #02b39e;
+$success-color-light: #02e1b1;
+
+$warn-color: #ffc11e;
+$warn-color-dark: #ffb21e;
+$warn-color-light: #ffd23e;
+
+$info-color: #09b3fe;
+$info-color-dark: #098efd;
+$info-color-light: #0abaff;
+
+// Common styles
+
+@mixin border-error {
+  border: 1px solid $danger-color;
+}
+
+@mixin span-error {
+  color: $danger-color;
+}

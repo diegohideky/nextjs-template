@@ -1,0 +1,31 @@
+@import 'antd/dist/antd.css';
+@import './break-points.scss';
+@import './variables.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  // add propert for full width and height
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --toastify-color-info: #09b3fe !important; // $info-color
+  --toastify-color-success: #02c19e !important; // $success-color
+  --toastify-color-warning: #ffc11e !important; // $warn-color
+  --toastify-color-error: #ff5573 !important; // $danger-color
+}

@@ -1,0 +1,13 @@
+@import '../../../styles/variables.scss';
+
+.error {
+  display: flex;
+
+  span {
+    @include span-error
+  }
+
+  div[class='ant-picker'] {
+    @include border-error
+  }
+}

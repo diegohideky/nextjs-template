@@ -1,0 +1,11 @@
+@import '../../../styles/variables.scss';
+
+.error {
+  span {
+    @include span-error
+  }
+
+  input {
+    @include border-error
+  }
+}

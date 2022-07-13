@@ -1,0 +1,11 @@
+@import '../../../styles/variables.scss';
+
+.error {
+  span {
+    @include span-error
+  }
+
+  div[class*='ant-select-in-form-item'] {
+    @include border-error;
+  }
+}

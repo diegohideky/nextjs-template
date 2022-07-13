@@ -1,0 +1,9 @@
+@import '../../../styles/variables.scss';
+
+.error {
+  display: flex;
+
+  span[class*='optionLabel'] {
+    @include span-error
+  }
+}

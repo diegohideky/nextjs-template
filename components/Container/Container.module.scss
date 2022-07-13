@@ -1,0 +1,30 @@
+@import '../../styles/break-points';
+@import '../../styles/variables';
+
+.container {
+  margin: 1rem 2rem;
+
+  @include tablet {
+    margin: 1rem 6rem;
+  }
+
+  @include laptop {
+    margin: 1rem 8rem;
+  }
+
+  @include desktop {
+  }
+
+  @include large {
+  }
+
+  .main {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+    @include desktop {
+      max-width: $max-width;
+    }
+  }
+}
